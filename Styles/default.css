@@ -47,31 +47,31 @@ button {
 /* --------Heading--------- */
 h1,
 .lg-text {
-  font-size: 4.8rem;
+  font-size: 3rem;
   line-height: 6.4rem;
 }
 
 h2,
 .md-text {
-  font-size: 3.2rem;
+  font-size: 2rem;
   line-height: 4rem;
 }
 
 h3,
 .sm-text {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   line-height: 3.2rem;
 }
 
 h4,
 .xs-text {
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 2.4rem;
 }
 
 h5,
 .xxs-text {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   line-height: 1.6rem;
 }
 

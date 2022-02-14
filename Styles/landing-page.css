@@ -48,17 +48,21 @@ span {
 .btn {
   padding: 0.3rem 0.8rem;
   width: 10rem;
-  margin-right: 1rem;
+  margin: 0.8rem;
   border-radius: 10px;
-  outline: 1.5px solid var(--primary-color);
+  outline: 1.5px dashed var(--primary-color);
   transition: 0.3s ease-in-out;
-  background: linear-gradient(to right, crimson 50%, white 50%);
+  background: linear-gradient(
+    to right,
+    rgba(220, 20, 60, 0.5) 10%,
+    transparent 60%
+  );
   background-size: 200% 100%;
   background-position: right bottom;
+  color: var(--pure-white);
 }
 .btn:hover {
-  background-color: var(--primary-color);
   color: var(--pure-white);
-  outline: 1.5px solid rgb(255, 255, 255);
+  outline: 1.5px dashed rgb(255, 255, 255);
   background-position: left bottom;
 }

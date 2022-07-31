@@ -49,7 +49,7 @@ span {
   height: calc(100vh - 8.125rem);
   padding: 1rem;
   overflow-y: auto;
-  /* background-image: linear-gradient(180deg, #161820, #212233 30%); */
+  left: 0;
 }
 .main {
   display: flex;
@@ -65,11 +65,51 @@ span {
   opacity: 1;
   margin-left: 1rem;
 }
+.active{
+  font-weight: 1000;
+  color:var(--secondary-color);
+}
 .content {
   width: 80%;
   overflow-y: auto;
   margin: 0 auto;
   overscroll-behavior: contain;
   height: calc(100vh - 8.125rem);
-  padding: 1rem 2rem 0 2rem;
+  padding: 0 2rem;
+}
+
+/* --------------Avatar-------------------- */
+.sm-round-avatar{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.sm-box-avatar{
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+}
+.md-round-avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.md-box-avatar{
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+}
+.lg-round-avatar{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.lg-box-avatar{
+  border-radius: 10%;
+  width: 150px;
+  height: 150px;
+  background-size:contain ;
+}
+.online{
+  border: 3px solid rgb(6, 239, 6);
 }

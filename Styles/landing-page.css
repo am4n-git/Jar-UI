@@ -33,7 +33,7 @@ span {
 .social-links li {
   margin-right: 1.6rem;
 }
-.content {
+.landing-page-content {
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -43,7 +43,7 @@ span {
   margin: 0 auto;
   justify-content: center;
 }
-.content p {
+.landing-page-content p {
   line-height: 2rem;
   word-spacing: 3px;
 }

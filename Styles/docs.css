@@ -116,3 +116,36 @@ span {
 .online{
   border: 3px solid rgb(6, 239, 6);
 }
+
+/* ------------------------Alert------------------------ */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 15px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+  color: black;
+}
+.alert{
+  padding: 25px;
+  color:white;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.error {
+  background-color: #f44336;
+}
+.success {
+  background-color: rgb(7, 167, 7);
+}
+.warning {
+  background-color: rgb(233, 151, 29);
+}
+.info{
+  background-color: rgb(93, 93, 248);
+}

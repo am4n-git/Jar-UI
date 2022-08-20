@@ -68,3 +68,14 @@ span {
   outline: 1.5px dashed rgb(255, 255, 255);
   background-position: left bottom;
 }
+.import-snippet{
+  background-color: rgba(11, 55, 151, 0.185);
+  padding: 3rem;
+  font-size: larger;
+  font-weight: 500;
+  letter-spacing: 5px;
+  border-radius: 20px;
+}
+.snippet-content{
+  padding: 2rem;
+}

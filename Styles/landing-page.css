@@ -23,6 +23,7 @@ a {
   color: var(--pure-white);
   align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 span {
   color: var(--primary-color);

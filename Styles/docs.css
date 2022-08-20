@@ -243,3 +243,80 @@ span {
   background-size: cover;
   z-index: 1;
 }
+
+/* -----------------------Buttons---------------------------------- */
+
+.btn {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+}
+.btn:hover{
+  background: none;
+  outline: 1px solid rgb(255, 255, 255);
+  color: white;
+}
+.btn-blue{
+  background-color: blue;
+  color: white;
+}
+.btn-blue:hover{
+  background: none;
+  outline: 1px solid blue;
+}
+.btn-red{
+  background-color: crimson;
+  color: white;
+}
+.btn-red:hover{
+  background: none;
+  outline: 1px solid crimson;
+}
+.btn-shadow:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+.btn-disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.btn-small{
+  width: 250px;
+}
+.btn-medium{
+  width: 50%;
+}
+.btn-large{
+  width: 100%;
+}
+
+.btn-animate span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.btn-animate span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.btn-animate:hover span {
+  padding-right: 25px;
+}
+
+.btn-animate:hover span:after {
+  opacity: 1;
+  right: 0;
+}
